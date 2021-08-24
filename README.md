@@ -1,4 +1,4 @@
-# My DataQuest Projects
+# My DataQuest Python Projects
 This repository contains projects that I have completed in the [DataQuest](https://www.dataquest.io/learn-with-dataquest/) bootcamp.
 
 ##  Project 1: [Analysis of apps from App Store and Google Play](https://github.com/VladimirSapozhnikov/my-dataquest-projects/blob/main/Project%201/Analysis%20of%20apps%20project.ipynb)
