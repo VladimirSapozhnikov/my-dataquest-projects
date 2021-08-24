@@ -46,4 +46,4 @@ To predict a car's market price based on a rage of factors such as its make, eng
 - [x] Decide on the optimal model parameters using the results above.
 - [x] Analyse the performance of the model in general, and in this particular case.
 
-
+## Project 4: [Predicting Bike Rentals](https://github.com/VladimirSapozhnikov/my-dataquest-projects/blob/main/Project%204/Project_Predicting_Bike_Rentals.ipynb)
