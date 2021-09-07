@@ -48,4 +48,34 @@ To predict a car's market price based on a rage of factors such as its make, eng
 
 ## Project 4: [Random Forest Regressor For Bike Rentals](https://github.com/VladimirSapozhnikov/my-dataquest-projects/blob/main/Project%204/Project_Predicting_Bike_Rentals.ipynb)
 
+### Objective: 
+To predict the total number of bikes rented in a given hour based on factors such asoutside air temperature, month, day of the week (etc.) using several ml models including random forest.
+
+### Project Milestones:
+- [x] Transform the "hr" feature by making another categorical feature called "time label" 
+- [x]  Perform the train/test split and move on to the model selection stage
+- [x]  Discuss the usefulness of linear regression in the context of this project as well as prepare the features for ml.
+- [x]  Train and test the lr model, and evaluate its perfomance in terms of mse.
+- [x]  Discuss the usefulness of the decision tree model in the context of this project and comapre it to the linear regression model.
+- [x]  Train and test the decision tree, and compare its accuracy to the lr model.
+- [x]  Introduce the random forest algorithm, discussing its advantages and drawbacks when compared to other ml models.
+- [x]  Train and test the random forest algorithm, evaluating its performance.
+- [x]  perform hyperparameter optimisation, and evaluate the improved accuracy of the predictions.
+
+
 ## Project 5: [Deep Learning Digits Classifier](https://github.com/VladimirSapozhnikov/my-dataquest-projects/blob/main/Project%205/Project_digits_classifier.ipynb)
+
+### Objective: 
+To perform handwritten digits classification using deep leaning.
+
+### Project Milestones:
+- [x] Load the handwritten digits dataset, expressed as rows of pixel values.
+- [x] Reshape a subset of the data, and plot the rows to see how the images are stored in each row of the dataset.
+- [x] Perform KNN classification with 4-fold cross validation and set the accuracy of the algorithm as a benchmark to be compared with the deep learning models.
+- [x] Apply the MLP deep learning Classifier, testing it with a single hidden layer of 8, 16, 32, 64, 128, and 256 neurons. 
+- [x] visualise the accuracy scores to see the relationship between the accuracy of classifications and increasing the number of neurons in a single hidden layer.
+- [x] introduce another hidden layer into the model, testing it with increasing number of neurons in both layers, and evalute its performance, comparing it to the single layered model as well as the KNN model.
+- [x] Add another hidden layer to the model, evluating its accuracy, increasing the number of folds in the cross validation, to help deal with overfitting.
+- [x] Try to further improve the accuracy of the model by trying different activation functions.
+- [x] identify the rectifier (ReLu) activation function as the most appropriate function in the context of this project.
+
