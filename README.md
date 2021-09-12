@@ -8,9 +8,9 @@ To find an optimal Category for an app developer to build a free app in, based o
 
 ### Project Milestones:
 - [x] Clean datasets by removing non-English apps, duplicates, incorrect data, non-free apps.
-- [x] Create and analyse frequency tables for total number of apps developed in App Store and Google Play.
+- [x] Create and analyse frequency tables for the total number of apps developed in App Store and Google Play.
 - [x] Hypothesise that the optimal app category is "Games" based on the analysis done so far.
-- [x] Perform deeper analysis by looking at more factors such as "number of installs" and "number of reviews".
+- [x] Perform deeper analysis by looking at more features such as "number of installs" and "number of reviews".
 - [x] Reject the initial Hypothesis and come to the conclusion that the optimal category is "Social Networking".
       
 ## Project 2: [Bayes Spam Filter](https://github.com/VladimirSapozhnikov/my-dataquest-projects/blob/main/Project%202/Naive%20Bayes%20for%20message%20classification%20project.ipynb)
@@ -31,18 +31,18 @@ To develop a spam filter based on the multinomial ["Naive Bayes"](https://en.wik
 ## Project 3: [Predicting a Car's market price](https://github.com/VladimirSapozhnikov/my-dataquest-projects/blob/main/Project%203/Predicting%20car's%20market%20price%20using%20its%20attributes%20project.ipynb)
 
 ### Objective:
-To predict a car's market price based on a rage of factors such as its make, engine size, horsepower, wheel base etc. using the KNN 
+To predict a car's market price based on a range of factors such as its make, engine size, horsepower, wheel base etc. using the KNN 
 ([K Nearest Neighbors Algorithm](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html)).
 
 ### Project Milestones:
-- [x] Clean the dataset by dealing with missing data, using the [missingno](https://github.com/ResidentMario/missingno) library to decide on the best approach.
+- [x] Clean the dataset by dealing with the missing data, using the [missingno](https://github.com/ResidentMario/missingno) library to decide on the best approach.
 - [x] Normalise the data so it can be used with KNN using the [pandas](https://pandas.pydata.org/) library.
-- [x] Create a pipeline to train and validate simple univariate KNN models in order to begin performing hyperparameter optimisation.
-- [x] Using the pipeline, decide which columns produce the most accurate univariate models with the default k-value. 
+- [x] Create a pipeline to train and validate simple univariate KNN models in order to perform hyperparameter optimisation.
+- [x] Using the pipeline, select the columns that produce the most accurate univariate models with the default k-value. 
 - [x] Update the pipeline so it takes into account custom k-values, and use it to test different models with k-values ranging from 1 to 9.
 - [x] Visualise the results by using the [matplotlib](https://matplotlib.org/) library.
-- [x] Update the pipeline to use the multivariate KNN model.
-- [x] Use the pipeline to determine the combination of columns that produces the most accurate models testing it with k-values ranging from 1 to 25 and visualise those results.
+- [x] Update the pipeline to tain and validate multivariate KNN models.
+- [x] Use the pipeline to determine the combination of columns that produces the most accurate models, testing it with k-values ranging from 1 to 25 and visualise those results.
 - [x] Decide on the optimal model parameters using the results above.
 - [x] Analyse the performance of the model in general, and in this particular case.
 
@@ -58,7 +58,7 @@ To predict the total number of bikes rented in a given hour based on factors suc
 - [x]  Train and test the lr model, and evaluate its perfomance in terms of mse.
 - [x]  Discuss the usefulness of the decision tree model in the context of this project and comapre it to the linear regression model.
 - [x]  Train and test the decision tree, and compare its accuracy to the lr model.
-- [x]  Introduce the random forest algorithm, discussing its advantages and drawbacks when compared to other ml models.
+- [x]  Introduce the random forest algorithm, discussing its advantages and drawbacks when compared to the other ml models.
 - [x]  Train and test the random forest algorithm, evaluating its performance.
 - [x]  perform hyperparameter optimisation, and evaluate the improved accuracy of the predictions.
 
@@ -72,10 +72,10 @@ To perform handwritten digits classification using deep leaning.
 - [x] Load the handwritten digits dataset, expressed as rows of pixel values.
 - [x] Reshape a subset of the data, and plot the rows to see how the images are stored in each row of the dataset.
 - [x] Perform KNN classification with 4-fold cross validation and set the accuracy of the algorithm as a benchmark to be compared with the deep learning models.
-- [x] Apply the MLP deep learning Classifier, testing it with a single hidden layer of 8, 16, 32, 64, 128, and 256 neurons. 
+- [x] Apply the [MLP](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html) deep learning Classifier, testing it with a single hidden layer of 8, 16, 32, 64, 128, and 256 neurons. 
 - [x] visualise the accuracy scores to see the relationship between the accuracy of classifications and increasing the number of neurons in a single hidden layer.
 - [x] introduce another hidden layer into the model, testing it with increasing number of neurons in both layers, and evalute its performance, comparing it to the single layered model as well as the KNN model.
-- [x] Add another hidden layer to the model, evluating its accuracy, increasing the number of folds in the cross validation, to help deal with overfitting.
+- [x] Add another hidden layer to the model, evluating its accuracy, increasing the number of folds in the cross validation to 6, to help deal with overfitting.
 - [x] Try to further improve the accuracy of the model by trying different activation functions.
-- [x] identify the rectifier (ReLu) activation function as the most appropriate function in the context of this project.
+- [x] identify the rectifier [(ReLu)](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)) activation function as the most appropriate function in the context of this project.
 
