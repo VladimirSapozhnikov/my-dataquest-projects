@@ -56,10 +56,10 @@ To predict the total number of bikes rented in a given hour based on factors suc
 - [x]  Perform the train/test split and move on to the model selection stage
 - [x]  Discuss the usefulness of linear regression in the context of this project as well as prepare the features for ml.
 - [x]  Train and test the lr model, and evaluate its perfomance in terms of mse.
-- [x]  Discuss the usefulness of the decision tree model in the context of this project and comapre it to the linear regression model.
+- [x]  Discuss the usefulness of the [decision tree](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html) model in the context of this project and comapre it to the linear regression model.
 - [x]  Train and test the decision tree, and compare its accuracy to the lr model.
 - [x]  Introduce the random forest algorithm, discussing its advantages and drawbacks when compared to the other ml models.
-- [x]  Train and test the random forest algorithm, evaluating its performance.
+- [x]  Train and test the [random forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) algorithm, evaluating its performance.
 - [x]  perform hyperparameter optimisation, and evaluate the improved accuracy of the predictions.
 
 
